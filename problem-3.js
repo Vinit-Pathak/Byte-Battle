@@ -43,4 +43,4 @@ function threeSum(nums) {
 
 // Example usage:
 const input = [1, -1, -1, 0];
-console.log(threeSum(input));
+console.log(threeSum(input));//[-1,0,1]
