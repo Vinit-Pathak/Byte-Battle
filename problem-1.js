@@ -53,6 +53,6 @@ stack.push(3);
 stack.push(4);
 stack.push(5);
 
-console.log("Before deletion:", stack.items);
+console.log("Before deletion:", stack.items); // [1, 2, 3, 4, 5]
 stack.deleteMiddle();
-console.log("After deletion:", stack.items);
+console.log("After deletion:", stack.items); // [1, 2, 4, 5]
