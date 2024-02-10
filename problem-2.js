@@ -1,3 +1,5 @@
+//Write a program to convert an Infix expression to Postfix form.
+
 function infixToPostfix(expression) {
   let postfix = '';
   const stack = [];
